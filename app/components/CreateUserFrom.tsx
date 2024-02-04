@@ -1,6 +1,6 @@
 'use client'
 
-import { useRouter } from 'next/navigation'
+import { useRouter } from 'next/router'
 import UserForm from './UserForm'
 
 export default function CreateUserForm() {
@@ -8,7 +8,7 @@ export default function CreateUserForm() {
 
   const handleCreateUser = async (userData: FormData) => {
     try {
-      await fetch('https://tasks.vitasoftsolutions.com/userdata/', {
+      await fetch('https://tasks.vitasoftsolutions.com/userdata', {
         method: 'POST',
         body: userData,
       })

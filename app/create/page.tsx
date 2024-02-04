@@ -1,6 +1,6 @@
-import styles from './page.module.css'
-import CreateUserForm from '../components/CreateUserFrom'
 import { Metadata } from 'next'
+import CreateUserForm from '../components/CreateUserFrom'
+import styles from './page.module.css'
 
 export const metadata: Metadata = {
   title: 'Create User',

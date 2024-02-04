@@ -1,7 +1,6 @@
 import styles from './page.module.css'
 import { Metadata } from 'next'
 import UserListTable from './components/UserListTable'
-import { redirect } from 'next/navigation'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
