@@ -12,7 +12,8 @@ export default function CreateUserForm() {
         method: 'POST',
         body: userData,
       })
-      router.push('/list')
+
+      router.push('/')
     } catch (e) {
       console.log(e)
     }
