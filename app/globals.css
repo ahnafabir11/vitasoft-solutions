@@ -3,3 +3,31 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html,
+body {
+  height: 100%;
+}
+
+table {
+  width: 100%;
+  min-width: 800px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #ccc;
+}
+
+.container {
+  padding: 0px 8px;
+  max-width: 1024px;
+  margin: 0 auto;
+}

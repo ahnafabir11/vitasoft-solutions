@@ -1,0 +1,14 @@
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.formContainer {
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+
+.formHeader {
+  margin-bottom: 16px;
+}
